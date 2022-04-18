@@ -1,0 +1,755 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --sans: 'Josefin Sans', sans-serif;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+/* FIRST CSS START */
+
+#first{
+    background-color: #ecf6fe;
+    padding-top: 15px;
+}
+
+#first .row p{
+    font: 300 15px var(--sans);
+line-height: 35px;
+color: #008aff;
+}
+
+#first .row a{
+    display: inline;
+    font-size: large;
+    margin-left: 15px;
+}
+
+/* HEADER CSS START */
+
+header{
+    background-color: #f7fbff;
+    background-image: url('../img/clean.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 99%;
+}
+
+header .light{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+header img{
+    height: 50px;
+    cursor: pointer;
+}
+
+header ul li a{
+    font: 400 16px var(--sans);
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+header .light ul li{
+    display: inline;
+}
+
+header .active{
+    color: #fff;
+    background-color: #008aff;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+
+header p{
+    font: 400 24px var(--sans);
+color: #008aff;
+}
+
+header button{
+    font: 400 16px var(--sans);
+color: #474747;
+background-color: #ffe824;
+border-radius: 50px;
+padding: 15px;
+border: none;
+}
+
+header .dark h3{
+    margin-top: 195px;
+    font: 300 33px var(--sans);
+color: #008aff;
+}
+
+header .dark h1{
+    font: 400 68px var(--sans);
+color: #13287e;
+margin: 40px 0 60px;
+}
+
+header .dark p{
+    font: 300 20px var(--sans);
+    width: 669px;
+line-height: 35px;
+color: #474747;
+margin-bottom: 15px;
+}
+
+header .dark button{
+    font: 400 14px var(--sans);
+color: #474747;
+padding: 30px 60px;
+margin-bottom: 100px;
+}
+
+/* SECOND CSS START */
+
+#second{
+    padding: 55px 0 150px;
+    border-bottom: 1px solid #d8d8de;
+}
+
+#second .author{
+    display: flex;
+    justify-content: space-between;
+}
+
+#second .author h3{
+    font: 400 33px var(--sans);
+    color: #008aff;
+    text-align: center;
+}
+
+#second .author h4{
+    font: 300 20px var(--sans);
+    color: #474747;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#second .author p{
+    font: 300 20px var(--sans);
+    width: 515px;
+    line-height: 35px;
+    color: #474747;
+    margin: 65px 0 55px;
+}
+
+#second .list{
+    display: flex;
+    justify-content: space-between;
+}
+
+#second .ordered ul li{
+    width: 187px;
+font-size: 20px;
+line-height: 35px;
+color: #008aff;
+font-weight: 300;
+font-family: "Josefin Sans";
+}
+
+#second .ordered ul li a{
+    text-decoration: none;
+}
+
+#second button{
+    font: 400 16px var(--sans);
+color: #474747;
+padding: 25px 40px ;
+border-radius: 50px;
+background-color: #ffe824;
+border: none;
+margin: 50px 0 0 100px;
+}
+
+.like{
+    position: absolute;
+    left: 37%;
+    top: 292%;
+    width: 326px;
+}
+
+/* THIRD CSS START */
+
+#third{
+    padding: 200px 0 150px;
+}
+
+#third h3{
+    font: 400 33px var(--sans);
+color: #13287e;
+text-align: center;
+margin-bottom: 110px;
+text-align: center;
+}
+
+#third hr{
+    width: 121px;
+    height: 2px;
+    background-color: #ffe824;
+    margin-left: 70px;
+}
+
+#third h4{
+    font: 400 28px var(--sans);
+color: #13287e;
+text-align: center;
+margin: 40px 0 20px;
+}
+
+#third p{
+    font: 300 19px var(--sans);
+line-height: 33px;
+color: #474747;
+text-align: center;
+}
+
+#third img{
+    padding-left: 95px;
+}
+
+/* FOURTH CSS START */
+
+#fourth{
+    padding: 80px 0 75px;
+    background-image: url('../img/Group.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fourth h1{
+    font: 400 33px var(--sans);
+color: #13287e;
+text-align: center;
+}
+
+#fourth p{
+    font: 300 20px var(--sans);
+    line-height: 35px;
+color: #474747;
+text-align: center;
+margin: 60px;
+}
+
+#fourth .girl{
+    padding-left: 44%;
+    margin-bottom: 50px;
+}
+
+#fourth h3{
+    font: 400 19px var(--sans);
+line-height: 23px;
+color: #f7b74d;
+text-align: center;
+}
+
+#fourth h4{
+    font: 400 16px var(--sans);
+line-height: 23px;
+color: #717171;
+text-align: center;
+}
+
+/* FIVE CSS START */
+
+#five{
+    padding: 100px 150px;
+}
+
+#five h1{
+    font: 400 33px var(--sans);
+color: #13287e;
+text-align: center;
+}
+
+#five p{
+    font: 300 20px var(--sans);
+line-height: 35px;
+color: #474747;
+text-align: center;
+margin: 55px 0 95px;
+}
+
+#five .row .card h2{
+    font: 400 26px var(--sans);
+color: #474747;
+text-align: center;
+margin-top: 20px;
+}
+
+#five .row .card div span:nth-child(1){
+    font: 400 24px var(--sans);
+color: #474747;
+}
+
+#five .row .card div span:nth-child(2){
+    font: 600 119px var(--sans);
+color: #008aff;
+}
+
+#five .row .card div span:nth-child(3){
+    font: 400 24px var(--sans);
+color: #474747;
+}
+
+#five .row .card p{
+    font: 300 17px var(--sans);
+line-height: 35px;
+color: #474747;
+text-align: center;
+margin: 20px 30px;
+}
+
+#five .row .card h3{
+    font: 300 17px var(--sans);
+line-height: 35px;
+color: #474747;
+text-align: center;
+}
+
+#five button{
+    width: 219px;
+height: 67px;
+border-radius: 34px;
+background-color: #ffe824;
+border: none;
+margin: 0 0 20px 50px;
+}
+
+#five .spann{
+    text-align: center;
+}
+
+.disc{
+    position: absolute;
+    left: 47%;
+    top: 694%;
+    width: 100px;
+}
+
+/* SIX CSS START */
+
+#six{
+    padding: 200px 0 90px;
+    background-image: url('../img/grup.png');
+    background-size: cover;
+}
+
+#six div h1{
+    font: 600 68px var(--sans);
+color: #13287e;
+text-align: center;
+}
+
+#six div p{
+    font: 300 20px var(--sans);
+line-height: 35px;
+color: #474747;
+text-align: center;
+margin: 60px 50px;
+}
+
+#six div button{
+    font: 600 14px var(--sans);
+color: #474747;
+background-color: #ffe824;
+padding: 30px 25px;
+border: none;
+border-radius: 50px;
+margin-left: 40%;
+}
+
+/* SEVEN CSS START */
+
+#seven{
+    padding: 120px 0 40px;
+}
+
+#seven h1{
+    font: 400 33px var(--sans);
+color: #13287e;
+text-align: center;
+}
+
+#seven p{
+    font: 300 20px var(--sans);
+line-height: 35px;
+color: #474747;
+text-align: center;
+margin: 50px 0 55px;
+}
+
+#seven .row h2{
+    font: 300 26px var(--sans);
+color: #13287e;
+margin: 55px 0 20px;
+}
+
+#seven .row p{
+    font: 300 20px var(--sans);
+line-height: 35px;
+color: #474747;
+margin-bottom: 30px;
+}
+
+#seven .cedvel{
+    margin-top: 150px;
+    text-align: center;
+}
+
+#seven .cedvel ul li a{
+    font: 400 16px var(--sans);
+    text-decoration: none;
+    margin-left: 45px;
+}
+
+#seven .cedvel ul li{
+    display: inline;
+}
+
+#seven .cedvel .active{
+    color: #fff;
+    background-color: #008aff;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+
+
+/* EIGHT CSS START */
+
+#eight{
+    padding: 35px;
+    border-top: 1px solid #d8d8de;
+    border-bottom: 1px solid #d8d8de;
+}
+
+#eight img{
+    height: 50px;
+    cursor: pointer;
+}
+
+#eight p{
+    font: 400 24px var(--sans);
+color: #474747;
+}
+
+#eight button{
+    font: 400 16px var(--sans);
+    border-radius: 34px;
+    padding: 20px 15px;
+background-color: #ffe824;
+border: none;
+margin-top: 20px;
+}
+
+#eight .paragraf p{
+    font: 300 20px var(--sans);
+line-height: 35px;
+color: #474747;
+}
+
+#eight input{
+border-radius: 3px;
+border: 2px solid;
+outline: none;
+border: none;
+}
+
+#eight .both{
+    background-color: #fff;
+    color: #373737;
+}
+
+#eight .hreff a{
+    color: #474747;
+    display: inline;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+/* FOOTER CSS START */
+
+footer{
+    padding: 50px 0 45px;
+}
+
+footer p{
+    font: 300 12px var(--sans);
+color: #474747;
+text-align: center;
+}
+
+footer h4{
+    font: 300 16px var(--sans);
+line-height: 30px;
+color: #474747;
+text-align: center;
+}
+
+
+@media only screen and (max-width:768px){
+ 
+.container{
+    max-width: 310px;
+}
+
+#first{
+    padding-bottom: 10px;
+}
+
+header{
+    background-image: url('');
+}
+
+header .light{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header ul li a{
+    margin: 10px 15px 5px 0;
+}
+
+header .active{
+    padding: 6px 10px;
+    border-radius: 30px;
+}
+
+header img{
+    margin-bottom: 20px;
+}
+
+header button{
+border-radius: 30px;
+padding: 15px 25px;
+margin-top: 20px;
+}
+
+header .dark h3{
+    margin-top: 50px;
+    text-align: center;
+    font: 300 20px var(--sans);
+}
+
+header .dark h1{
+    font: 400 24px var(--sans);
+margin: 30px 0 40px;
+text-align: center;
+}
+
+header .dark p{
+    font: 300 18px var(--sans);
+    width: 250px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+header .dark button{
+padding: 15px 25px;
+margin: 0 0 50px 60px;
+}
+
+#second{
+    padding: 55px 0 100px;
+}
+
+.media{
+    width: 250px;
+    margin-left: 35px;
+}
+
+#second .author h3{
+    font: 400 20px var(--sans);
+    text-align: center;
+}
+
+#second .author h4{
+    font: 300 18px var(--sans);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#second .author p{
+    font: 300 20px var(--sans);
+    width: 250px;
+    margin: 45px 20px 45px;
+    text-align: center;
+}
+
+#second .ordered ul li{
+    width: 130px;
+font-size: 18px;
+}
+
+#second button{
+padding: 15px 20px ;
+margin: 30px 50px;
+}
+
+.immediant{
+display: none;
+}
+
+.shape{
+    display: none;
+}
+
+.like{
+    display: none;
+}
+
+#third{
+    background-color: #fffbfb;
+    padding: 50px 0 60px;
+    border-bottom: 1px solid #d8d8de;
+}
+
+#third h3{
+    font: 400 24px var(--sans);
+margin-bottom: 70px;
+}
+
+#third h4{
+    font: 400 20px var(--sans);
+margin: 30px 0 25px;
+}
+
+#third p{
+    font: 300 16px var(--sans);
+    margin-bottom: 50px;
+}
+
+#fourth{
+    padding: 50px 0 60px;
+    background-image:none;
+}
+
+#fourth h1{
+    font: 400 22px var(--sans);
+}
+
+#fourth p{
+    font: 300 20px var(--sans);
+    text-align: center;
+margin: 60px;
+}
+
+#fourth .girl{
+    padding-left: 25%;
+}
+
+#five{
+    background-color: #f5faff;
+    padding: 50px 60px;
+}
+
+#five h1{
+    font: 400 22px var(--sans);
+}
+
+#five .row .card div span:nth-child(2){
+    font: 600 60px var(--sans);
+}
+
+#five .row .card{
+margin-bottom: 50px;
+}
+
+#five button{
+    width: 139px;
+height: 47px;
+margin: 0 0 20px 45px;
+}
+
+.disc{
+    display: none;
+}
+
+#six{
+    border-top: 2px solid #d8d8de;
+    border-bottom: 2px solid #d8d8de;
+    padding: 50px 0 60px;
+    background-image: none;
+}
+
+#six div h1{
+    font: 600 22px var(--sans);
+}
+
+#six div button{
+padding: 20px 12px;
+margin-left: 15%;
+}
+
+#seven{
+    padding: 50px 0 60px;
+background-color: #e9e9fa;
+}
+
+#seven h1{
+    font: 400 22px var(--sans);
+}
+
+#seven .row img{
+    width: 270px;
+    margin-top: 40px;
+}
+
+#seven .row h2{
+    font: 300 20px var(--sans);
+margin: 40px 0 5px;
+}
+
+#seven .row p{
+    font: 300 20px var(--sans);
+line-height: 35px;
+color: #474747;
+margin-bottom: 20px;
+}
+
+#seven .row div a{
+   margin-left: 80px;
+}
+
+#seven .cedvel{
+    margin-top: 70px;
+    margin-right: 30px;
+}
+
+#seven .cedvel ul li{
+    display: inline;
+}
+
+#seven .cedvel .active{
+    padding: 6px 10px;
+    border-radius: 30px;
+}
+
+#seven .cedvel ul li a{
+    margin: 10px 15px 5px 0;
+}
+
+#eight button{
+    padding: 15px 15px;
+margin-bottom: 40px;
+}
+
+#eight .view{
+    margin-top: 40px;
+}
+}
